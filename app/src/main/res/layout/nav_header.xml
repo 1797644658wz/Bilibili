@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="230dp"
+    android:background="#00BCD4"
+    >
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/head_au"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="30dp"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:src="@drawable/ic_22" />
+
+    <LinearLayout
+        android:id="@+id/ln_1"
+        android:layout_below="@+id/head_au"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="13dp"
+            android:text="bilibbbili"
+            android:textColor="#000"
+            android:layout_marginLeft="30dp"/>
+        <ImageView
+            android:layout_width="25dp"
+            android:layout_height="20dp"
+            android:src="@drawable/mall_mine_vip_level_6"
+            android:layout_marginLeft="5dp"/>
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="20dp"
+            android:src="@drawable/ic_badge_vip"
+            android:layout_marginLeft="5dp"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_below="@+id/ln_1"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="13dp"
+            android:text="B币: 0.0"
+            android:layout_marginLeft="30dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="13dp"
+            android:text="硬币: 0.0"
+            android:layout_marginLeft="30dp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="200dp">
+
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="30dp"
+            android:src="@drawable/nav_task"/>
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginLeft="20dp"
+            android:src="@drawable/nav_mail"/>
+    </LinearLayout>
+    <LinearLayout
+        android:background="@drawable/ic_splash_background"
+        android:layout_alignParentBottom="true"
+        android:layout_width="match_parent"
+        android:layout_height="75dp"
+        android:orientation="horizontal"
+        >
+
+        <TextView
+            android:gravity="center"
+            android:textSize="20dp"
+            android:textColor="#D51717"
+            android:layout_width="wrap_content"
+            android:layout_height="80dp"
+            android:text="我是大会员 "
+            android:layout_marginLeft="30dp"
+
+            />
+        <TextView
+            android:gravity="center"
+            android:textSize="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="了解更多权益 "
+            android:layout_marginLeft="5dp"
+            />
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:src="@drawable/ic_chevron_right_black_24dp"
+            android:layout_marginLeft="20dp"/>
+    </LinearLayout>
+
+</RelativeLayout>

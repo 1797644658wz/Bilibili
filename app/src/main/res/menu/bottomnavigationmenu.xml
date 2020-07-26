@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        app:showAsAction="ifRoom"
+        android:enabled="true"
+        android:id="@+id/first"
+        android:title="首页"
+        android:icon="@drawable/ic_school_black_24dp">
+
+    </item>
+    <item
+        app:showAsAction="ifRoom"
+        android:enabled="true"
+        android:id="@+id/second"
+        android:title="频道"
+        android:icon="@drawable/ic_toys_black_24dp">
+
+    </item>
+
+    <item
+        app:showAsAction="ifRoom"
+        android:enabled="true"
+        android:id="@+id/third"
+        android:title="动态"
+        android:icon="@drawable/ic_whatshot_black_24dp">
+
+    </item>
+    <item
+        app:showAsAction="ifRoom"
+        android:enabled="true"
+        android:id="@+id/forth"
+        android:title="会员购"
+        android:icon="@drawable/ic_fingerprint_black_24dp">
+
+    </item>
+
+</menu>

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="160dp"
+        android:gravity="bottom">
+        <ImageView
+            android:id="@+id/b22"
+            android:src="@drawable/ic_22"
+            android:layout_width="120dp"
+            android:layout_height="120dp" />
+        <ImageView
+            android:layout_centerHorizontal="true"
+            android:layout_width="160dp"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_bili_logo"/>
+        <ImageView
+            android:id="@+id/b33"
+            android:src="@drawable/ic_33"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_alignParentRight="true" />
+    </RelativeLayout>
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:columnCount="2"
+        android:orientation="horizontal"
+        android:padding="10dp"
+        android:rowCount="5">
+
+        <TextView
+            android:layout_columnSpan="1"
+            android:layout_gravity="fill"
+            android:text="用户名："
+            android:textSize="30dp" />
+
+        <EditText
+            android:id="@+id/register_username_ed"
+            android:layout_columnSpan="1"
+            android:layout_gravity="fill" />
+
+        <TextView
+            android:layout_columnSpan="1"
+            android:layout_gravity="fill"
+            android:text="密码："
+            android:textSize="30dp" />
+
+        <EditText
+            android:id="@+id/register_password_ed"
+            android:layout_columnSpan="1"
+            android:layout_gravity="fill" />
+
+        <Button
+            android:id="@+id/register_button"
+            android:layout_columnSpan="2"
+            android:layout_gravity="fill"
+            android:text="注册" />
+
+    </GridLayout>
+
+</LinearLayout>

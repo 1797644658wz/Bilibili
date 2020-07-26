@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:id="@+id/game_toolbar"
+        android:icon="@drawable/ic_btn_game"
+        android:title="game_toolbar"
+        app:showAsAction="always"
+        />
+    <item android:id="@+id/download_toolbar"
+        android:icon="@drawable/ic_live_home_mobile_game"
+        android:title="download_toolbar"
+        app:showAsAction="always"
+        />
+    <item android:id="@+id/addition_toolbar"
+        android:icon="@drawable/ic_live_home_painting"
+        android:title="addition_toolbar"
+        app:showAsAction="always"
+        />
+</menu>
